@@ -1,0 +1,35 @@
+# Ignore node_modules in both client-view and CMS
+client-view/node_modules/
+CMS/node_modules/
+
+# Ignore build output in client-view
+client-view/.next/
+client-view/out/
+
+# Ignore environment variables
+client-view/.env.local
+client-view/.env.development.local
+client-view/.env.test.local
+client-view/.env.production.local
+
+# Ignore log files
+client-view/npm-debug.log*
+client-view/yarn-debug.log*
+client-view/yarn-error.log*
+
+# Ignore Strapi specific files
+CMS/.cache/
+CMS/build/
+CMS/public/
+
+# Ignore environment variables for Strapi
+CMS/.env
+
+# Ignore log files for Strapi
+CMS/npm-debug.log*
+CMS/yarn-debug.log*
+CMS/yarn-error.log*
+
+# General ignores
+.DS_Store
+Thumbs.db
